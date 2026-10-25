@@ -1,0 +1,138 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-hero);
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-bg-orbs {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.auth-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 40px;
+  width: 100%;
+  max-width: 440px;
+  position: relative;
+  z-index: 1;
+  box-shadow: var(--shadow-lg);
+}
+
+.auth-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 20px;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 28px;
+  justify-content: center;
+}
+
+.auth-logo-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: var(--gradient-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.auth-header h1 {
+  margin-bottom: 8px;
+}
+
+.auth-header p {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input with icon */
+.input-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.input-with-icon {
+  padding-left: 42px !important;
+  width: 100%;
+}
+
+.input-with-icon-right {
+  padding-right: 42px !important;
+}
+
+.input-icon-right {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 2px;
+  transition: var(--transition);
+}
+
+.input-icon-right:hover {
+  color: var(--text-primary);
+}
+
+.auth-btn {
+  width: 100%;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.auth-footer-text {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.auth-link {
+  color: var(--primary-light);
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.auth-link:hover {
+  color: var(--primary);
+}
