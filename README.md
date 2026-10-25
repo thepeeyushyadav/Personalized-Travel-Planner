@@ -25,7 +25,7 @@
 
 <br/>
 
-**[🌐 Live Demo](https://your-app.vercel.app)** &nbsp;•&nbsp; **[📡 API Docs](https://your-backend.onrender.com/api/docs)** &nbsp;•&nbsp; **[🎓 SkillWallet Portal](https://skillwallet.smartbridge.co.in)**
+**[🌐 Live Demo](https://your-app.vercel.app)** &nbsp;•&nbsp; **[📡 API Docs](https://personalized-travel-planner-ygcu.onrender.com/api/docs)** &nbsp;•&nbsp; **[🎓 SkillWallet Portal](https://skillwallet.smartbridge.co.in)**
 
 </div>
 
